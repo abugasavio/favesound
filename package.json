@@ -1,0 +1,28 @@
+{
+  "name": "favesound",
+  "version": "1.0.0",
+  "description": "React/Redux ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savioabuga/favesound.git"
+  },
+  "keywords": [
+    "React",
+    "Redux"
+  ],
+  "author": "Savio Abuga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savioabuga/favesound/issues"
+  },
+  "homepage": "https://github.com/savioabuga/favesound#readme",
+  "devDependencies": {
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
