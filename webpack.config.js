@@ -27,5 +27,6 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     hot: true,
+    historyApiFallback: true // allow app to do routing purely on the client side
   },
 };
