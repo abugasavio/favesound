@@ -1,6 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
-
 
 function Stream({ tracks = []}) {
   return (
@@ -16,12 +14,5 @@ Stream.propTypes = {
   tracks: React.PropTypes.array.isRequired
 };
 
-function mapStateToProps(state) {
-  const tracks = state.track;
-  return {
-    tracks
-  }
-}
 
-
-export default connect(mapStateToProps)(Stream);
+export default Stream;
